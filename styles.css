@@ -2,7 +2,7 @@ body {
     background-color: beige;
 }
 header > img {
-    width: 100px;
+    width: 70px;
     float: left;
 }
 header > nav {
@@ -12,8 +12,20 @@ header {
     display: inline-block;
     width:800px;
     margin-left: calc(50% - 400px);
-    margin-top: 100px;
+    margin-top: 40px;
+
     
+}
+header > nav > a {
+   color: #3F4371; 
+   font-size: 18px;
+   text-decoration: none;
+   font-family: Tahoma;
+   margin-left: 50px;
+
+}
+nav > a:first-child {
+margin-left: 0;
 }
 nav {
     float: right;
@@ -22,7 +34,7 @@ main{
     display: inline-block;
     width:800px;
     margin-left: calc(50% - 400px);
-    margin-top: 100px;
+    margin-top: 40px;
     
 }
 main > img {
