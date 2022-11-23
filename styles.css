@@ -1,5 +1,12 @@
 body {
     background-color:floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    display: inline-block;
+    width:800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 40px;
 }
 header > img {
     width: 100px;
@@ -7,28 +14,32 @@ header > img {
 }
 header > nav {
     float: right;
-}
-header {
-    display: inline-block;
-    width:800px;
-    margin-left: calc((100% - 800px) / 2);
-    margin-top: 40px;
-
-    
+    margin-top: 3.8px;
 }
 header > nav > a {
    color: #3F4371; 
    font-size: 18px;
    text-decoration: none;
    font-family: Tahoma;
-   margin-left: 50px;
-
+   margin-left: 0.5em;
+   font-family: monospace;
+   border: 0.1em solid transparent;
+   display: inline-block;
+   border-radius: 0.2em;
+   padding-left: 0.7em ;
+   padding-right: 0.7em;
+   padding: 0.3em;
+   line-height: 1em;
 }
 nav > a:first-child {
 margin-left: 0;
 }
 nav {
     float: right;
+}
+nav>a:hover {
+    border-color: #3F4371;
+    font-weight: bolder;
 }
 main{
     display: inline-block;
