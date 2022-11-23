@@ -1,8 +1,8 @@
 body {
-    background-color: beige;
+    background-color:floralwhite;
 }
 header > img {
-    width: 70px;
+    width: 100px;
     float: left;
 }
 header > nav {
@@ -11,7 +11,7 @@ header > nav {
 header {
     display: inline-block;
     width:800px;
-    margin-left: calc(50% - 400px);
+    margin-left: calc((100% - 800px) / 2);
     margin-top: 40px;
 
     
@@ -33,7 +33,7 @@ nav {
 main{
     display: inline-block;
     width:800px;
-    margin-left: calc(50% - 400px);
+    margin-left: calc((100% - 800px) / 2);
     margin-top: 40px;
     
 }
@@ -44,9 +44,4 @@ main > img {
 main > div {
     width: 35%;
     float: left;
-}
-div{
-    width: 35%;
-    background-color:brown;
-
 }
