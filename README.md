@@ -21,9 +21,9 @@ Design: [Happy weekend](./design/design.png)
 -   Github pages
 -   Design
 -   Structure
--   Header
 -   FontAwesome icons
 -   Fixed width content (desktop only)
+-   CSS selectors
 
 ## 🧰 Getting Started
 
