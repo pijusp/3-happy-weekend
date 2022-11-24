@@ -2,21 +2,21 @@ body {
     background-color:floralwhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header {
+.main-header{
     display: inline-block;
     width:800px;
     margin-left: calc((100% - 800px) / 2);
     margin-top: 40px;
 }
-header > img {
+.logo{
     width: 100px;
     float: left;
 }
-header > nav {
+.main-nav{
     float: right;
     margin-top: 3.8px;
 }
-header > nav > a {
+.main-nav > a {
    color: #3F4371; 
    font-size: 18px;
    text-decoration: none;
@@ -31,13 +31,13 @@ header > nav > a {
    padding: 0.3em;
    line-height: 1em;
 }
-nav > a:first-child {
+.main-nav > a:first-child {
 margin-left: 0;
 }
-nav {
+.main-nav {
     float: right;
 }
-nav>a:hover {
+.main-nav > a:hover {
     border-color: #3F4371;
     font-weight: bolder;
 }
@@ -48,11 +48,47 @@ main{
     margin-top: 40px;
     
 }
-main > img {
+.main-title{
+    margin: 0;
+font-size: 55px;
+text-transform: uppercase;
+color: #3F4371;
+}
+.main-title>span {
+font-size: 45px;
+}
+.description{
+font-size: 18px;
+line-height: 1.3em;
+letter-spacing: 0.05em;
+word-spacing: 0.3em;
+
+}
+.link{
+color: #fff;
+padding: 0.5em;
+padding-left: 3em;
+padding-right: 3em;
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+background-color: #3F4371;
+border-radius: 0.3em;
+display: inline-block;
+box-shadow: 0px 0.5em 0.2em -0.45em #888;
+transition: all 0.5s;
+}
+.link:hover{
+box-shadow: 0px 0.8em 0.4em -0.5em #888;
+}
+.socials {
+margin-top: 50px;
+}
+.right-column {
     width: 60%;
     float: right;
 }
-main > div {
+.left-column {
     width: 35%;
     float: left;
 }
