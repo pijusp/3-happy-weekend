@@ -16,7 +16,7 @@ body {
     float: right;
     margin-top: 3.8px;
 }
-.main-nav > a {
+.link {
    color: #3F4371; 
    font-size: 18px;
    text-decoration: none;
@@ -41,7 +41,7 @@ margin-left: 0;
     border-color: #3F4371;
     font-weight: bolder;
 }
-main{
+.main-content{
     display: inline-block;
     width:800px;
     margin-left: calc((100% - 800px) / 2);
@@ -64,7 +64,7 @@ letter-spacing: 0.05em;
 word-spacing: 0.3em;
 
 }
-.link{
+.btn{
 color: #fff;
 padding: 0.5em;
 padding-left: 3em;
@@ -78,11 +78,24 @@ display: inline-block;
 box-shadow: 0px 0.5em 0.2em -0.45em #888;
 transition: all 0.5s;
 }
-.link:hover{
+.btn:hover{
 box-shadow: 0px 0.8em 0.4em -0.5em #888;
 }
 .socials {
 margin-top: 50px;
+}
+.socials > .icon{
+    width: 2em;
+    height: 2em;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #fff;
+    background-color: #3F4371;
+    border-radius: 50%;
+    line-height: 2em;
 }
 .right-column {
     width: 60%;
