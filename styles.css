@@ -1,5 +1,6 @@
 :root {
     --main-color: #3f4371;
+    --width: 1000px
 }
 body {
   background-color: floralwhite;
@@ -7,8 +8,8 @@ body {
 }
 .main-header {
   display: inline-block;
-  width: 1000px;
-  margin-left: calc((100% - 1000px) / 2);
+  width: var(--width);
+  margin-left: calc((100% - var(--width)) / 2);
   margin-top: 40px;
 }
 .logo {
@@ -20,7 +21,7 @@ body {
   margin-top: 3.8px;
 }
 .link {
-  color: #3f4371;
+  color: var(--main-color);
   font-size: 18px;
   text-decoration: none;
   font-family: Tahoma;
@@ -41,20 +42,20 @@ body {
   float: right;
 }
 .main-nav > a:hover {
-  border-color: #3f4371;
+  border-color: var(--main-color);
   font-weight: bolder;
 }
 .main-content {
   display: inline-block;
-  width: 1000px;
-  margin-left: calc((100% - 1000px) / 2);
+  width: var(--width);
+  margin-left: calc((100% - var(--width)) / 2);
   margin-top: 40px;
 }
 .main-title {
   margin: 0;
   font-size: 55px;
   text-transform: uppercase;
-  color: #3f4371;
+  color: var(--main-color);
 }
 .main-title > span {
   font-size: 45px;
@@ -73,7 +74,7 @@ body {
   font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #3f4371;
+  background-color: var(--main-color);
   border-radius: 0.3em;
   display: inline-block;
   box-shadow: 0px 0.5em 0.2em -0.45em #888;
@@ -94,7 +95,7 @@ body {
   margin-bottom: 0.5em;
   text-align: center;
   color: #fff;
-  background-color: #3f4371;
+  background-color: var(--main-color);
   border-radius: 50%;
   line-height: 2em;
   transition: all 0.5s;
